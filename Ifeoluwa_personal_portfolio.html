@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ifeoluwa Falaye - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* General body and font styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Container for content */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Header styling */
+        header {
+            background: linear-gradient(135deg, #007bff, #0056b3);
+            color: white;
+            padding: 60px 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        /* Section styling */
+        .section {
+            background-color: white;
+            padding: 40px;
+            margin-bottom: 25px;
+            border-radius: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            text-align: left;
+        }
+
+        .section h2 {
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+            color: #0056b3;
+            display: inline-block;
+        }
+
+        /* List styling for skills and education */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            background-color: #e9ecef;
+            margin-bottom: 10px;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 5px solid #007bff;
+        }
+
+        ul li strong {
+            color: #0056b3;
+        }
+
+        /* Download CV button styling */
+        .download-btn {
+            display: inline-block;
+            background-color: #28a745;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            margin-top: 20px;
+        }
+
+        .download-btn:hover {
+            background-color: #218838;
+            transform: translateY(-2px);
+        }
+
+        /* Project card styling */
+        .project-card {
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 15px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Contact form styling */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contact-form label {
+            font-weight: 600;
+            color: #555;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+        }
+
+        .contact-form textarea {
+            resize: vertical;
+            min-height: 150px;
+        }
+
+        .contact-form button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 15px;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+        }
+
+        /* Footer styling */
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #6c757d;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            header {
+                padding: 40px 15px;
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            .section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="Ifeoluwa.jpg" alt="Profile Picture" class="profile-pic">
+        <h1>FALAYE IFEOLUWA DAVID</h1>
+        <p><strong>Email:</strong> <a href="mailto:falayeifeoluwa@gmail.com">falayeifeoluwa@gmail.com</a></p>
+        <p><strong>Phone:</strong> +2348103361865</p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ifeoluwa-david-789614110" target="_blank">Ifeoluwa David</a></p>
+        <p><strong>Address:</strong> 45, Town planning way, Shagari estate, Ipaja, Lagos.</p>
+    </header>
+
+    <div class="container">
+
+        <!-- About Me Section -->
+        <div class="section" id="about">
+            <h2>👨🏽‍🦱 About Me</h2>
+            <p>Hello! I am Ifeoluwa David, a passionate IT professional with expertise in systems management, webdesign and development, data analytics, and strategic decision-making.</p>
+            <p>Proven ability to drive operational efficiency, streamlining processes, translating complex concepts into actionable solutions and delivering exceptional technical support.</p>
+        </div>
+
+        <!-- Educational Background Section -->
+        <div class="section" id="education">
+            <h2>🎓 Educational Background</h2>
+            <ul>
+                <li><strong>M.SC. Information Technology</strong> from National Open University of Nigeria</li>
+                <li><strong>B.SC. Mathematics</strong> from University of Lagos</li>
+            </ul>
+            <p>You can find more details about my professional qualifications in my CV.</p>
+            <!-- CV download link.-->
+            <a href="https://drive.google.com/file/d/1Rio4KOu38TvqwxmxYglp-8DCvtSMOIBx/view?usp=drive_link" class="download-btn">Download My CV</a>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="section" id="skills">
+            <h2>💻 Skills</h2>
+            <ul>
+                <li><strong>Programming & Web Design:</strong> Python, MS SQL, HTML, WordPress</li>
+                <li><strong>Data Analysis & Visualisation:</strong> DataSquirrel, Looker, Infogram, Excel</li>
+                <li><strong>Engineering:</strong> Computer hardware and software maintenance</li>
+                <li><strong>Graphics:</strong> Adobe Photoshop, Corel Draw</li>
+            </ul>
+        </div>
+
+        <!-- Projects Section -->
+        <div class="section" id="projects">
+            <h2>🛠️ Projects</h2>
+            <div class="project-card">
+                <h3>Project 1: IT Support & Administration</h3>
+                <p>Managed an inventory of ICT hardware and software, provided technical support, and developed disaster recovery plans, achieving 98% data availability.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 2: Data Analysis & Visualization</h3>
+                <p>Cleaned and pre-processed data to ensure accuracy, performed exploratory data analysis, and designed data visualizations for clear insight presentation.</p>
+            </div>
+        </div>
+
+        <!-- Contact Me Section -->
+        <div class="section" id="contact">
+            <h2>📬 Contact Me</h2>
+            <p>Feel free to reach out to me using the form below!</p>
+            <form action="#" method="post" class="contact-form">
+                <label for="name">Name *</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message *</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+        </div>
+
+    </div>
+
+    <footer>
+        &copy; 2024 Ifeoluwa Falaye. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
