@@ -39,13 +39,15 @@ The site includes information about education, skills, projects, and contact det
 
 ## 📌 Notes
 
-- Ensure the `Ifeoluwa.jpg` image is in the same directory as `index.html`, or update the `src` attribute of the `<img>` tag with the correct path.
+- Ensure the `Ifeoluwa.jpg` image is in the same directory as `Ifeoluwa_personal_portfolio.html`, or update the `src` attribute of the `<img>` tag with the correct path.
 - The contact form currently does not have backend support. To make it functional, connect it to a form handler service (like Formspree, Netlify Forms, or custom backend).
 - For enhanced SEO, you can further add `meta` tags for description, keywords, and social sharing.
 
 ## 📷 Screenshot
 
-> _Include a screenshot here if you're uploading this README to GitHub or a portfolio showcase._
+<img width="937" height="917" alt="Screenshot 2025-08-04 120706" src="https://github.com/user-attachments/assets/69e4f747-8fe0-4fcb-ae0b-3b6f55531b3b" />
+
+<img width="939" height="915" alt="image" src="https://github.com/user-attachments/assets/0a8b89c7-4f4f-4a9b-869b-8e3a3d3662f3" />
 
 ## 📄 License
 
